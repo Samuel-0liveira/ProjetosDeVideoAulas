@@ -1,0 +1,26 @@
+﻿Introdução a nomenclatura.
+
+Nessa primeira aula vimos o básico da linguagem C#, começando pelo seu cabeçalho:
+
+ using System; *1  
+
+ class Principal  {   *2
+
+     static void Main() {   *3
+
+        Console.Write("Olá Mundo...");   *4
+	Console.Read();                  *5
+     }
+
+ }
+
+
+ 1 - *using* diz ao nosso programa qual biblioteca deve ser utilizada, a biblioteca *System* é a padrão.
+
+ 2 - Estrutura básica da classe, colocamos o *class* mais o nome da classe, no caso *Principal*.
+
+ 3 - Estrutura principal do programa.
+
+ 4 - *Console.Write("texto")* serve para escrever na tela.
+
+ 5 - *Console.Read()* serve para ler um comando, também utilizado para a tela simplesmente não apagar, e só fechar depois de pressionar o enter. 
